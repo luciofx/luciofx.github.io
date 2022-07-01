@@ -336,7 +336,7 @@
   .cinema4d-1220::after {
     content: '';
     position: absolute;
-    background-image: url(/img/2-conteudo-c4d.png);
+    background-image: url('../img/2-conteudo-c4d.png');
     background-size: cover;
     display: block;
     width: 100px;
@@ -348,7 +348,7 @@
   .photoshop-1220::after {
     content: '';
     position: absolute;
-    background-image: url(/img/2-conteudo-ps.png);
+    background-image: url('../img/2-conteudo-ps.png');
     background-size: cover;
     display: block;
     width: 100px;
@@ -360,7 +360,7 @@
   .after-1220::after {
     content: '';
     position: absolute;
-    background-image: url(/img/2-conteudo-ae.png);
+    background-image: url('../img/2-conteudo-ae.png');
     background-size: cover;
     display: block;
     width: 100px;
@@ -372,7 +372,7 @@
   .flstudio-1220::after {
     content: '';
     position: absolute;
-    background-image: url(/img/2-conteudo-flstudio.png);
+    background-image: url('../img/2-conteudo-flstudio.png');
     background-size: cover;
     display: block;
     width: 100px;
@@ -384,7 +384,7 @@
   .lumion-1220::after {
     content: '';
     position: absolute;
-    background-image: url(/img/2-conteudo-lumion.png);
+    background-image: url('../img/2-conteudo-lumion.png');
     background-size: cover;
     display: block;
     width: 100px;
