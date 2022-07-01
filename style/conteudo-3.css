@@ -6,11 +6,11 @@
 .section-c3 {
   background-color: #CAFFFC;
   width: 100%;
-  max-width: 100%;
   margin: 0 auto;
 }
 
 .conteudo-3 {
+  max-width: 100%;
   width: 1900px;
   margin: 0 auto;
 }
