@@ -1,0 +1,615 @@
+.conteudo2 h2, h3, h4 {
+  margin: 0;
+  padding: 0px;
+}
+
+.section-c2 div h4 {
+  font-size: 2.4rem;
+  text-align: left;
+  place-self: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.section-c2 img {
+  width: 160px;
+  height: 160px;
+  margin-right: 80px;
+}
+
+.conteudo2 {
+  padding: 60px 0px 30px 0px;
+  position: relative;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr) 2fr;
+  max-width: 1900px;
+  justify-content: center;
+}
+
+.section-c2 {
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: rgba(13, 13, 13, 1);
+}
+
+.conteiner-c2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 60px 0px 30px 0px;
+  row-gap: 40px;
+}
+
+.itens-exp {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column: 1 / -1;
+}
+
+.exp {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-radius: 5px 0px 0px 5px;
+  border: 2px solid;
+  background-size: contain;
+  column-gap: 20px;
+}
+
+.exp h4 span {
+  font-size: 1.6rem;
+}
+
+.exp div h4 {
+  font-weight: 500;
+  line-height: 1;
+  width: auto;
+}
+
+.exp p {
+  font-size: 1.4rem;
+  width: 34ch;
+  justify-self: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.alinhamento {
+  position: relative;
+}
+
+.alinhamento-p {
+  position: relative;
+}
+
+
+.exp .alinhamento {
+  place-self: center end;
+}
+
+.exp .alinhamento-p {
+  place-self: center start;
+}
+
+/*Estilos das Bordas*/
+
+.exp {
+  position: relative;
+}
+
+.cinema4d {
+  position: relative;
+  background: #2D39A2;
+  border-color: #6070D7;
+  border-width: 2px 0px 2px 2px;
+}
+
+.cinema4d::before {
+  content: '2013-';
+  display: inline;
+  position: absolute;
+  font-size: 1.3rem;
+  top: 10px;
+  left: -60px;
+  color: white;
+  font-family: 'open sans';
+}
+
+.photoshop {
+  background: #001D26;
+  border-width: 2px 0px 2px 2px;
+  border-color: #00C8FF;
+}
+
+.photoshop::before {
+  content: '2014-';
+  display: inline;
+  position: absolute;
+  font-size: 1.3rem;
+  top: 10px;
+  left: -60px;
+  color: white;
+  font-family: 'open sans';
+}
+
+
+.after-effects {
+  background: #1F0040;
+  border-width: 2px 0px 2px 2px;
+  border-color: #D291FF;
+}
+
+.after-effects::before {
+  content: '2013-';
+  display: inline;
+  position: absolute;
+  font-size: 1.3rem;
+  top: 10px;
+  left: -60px;
+  color: white;
+  font-family: 'open sans';
+}
+
+
+.fl-studio {
+  background: #E76B1E;
+  border-width: 2px 0px 2px 2px;
+  border-color: #507D3C;
+}
+
+.fl-studio::before {
+  content: '2016-';
+  display: inline;
+  position: absolute;
+  font-size: 1.3rem;
+  top: 10px;
+  left: -60px;
+  color: white;
+  font-family: 'open sans';
+}
+
+
+.lumion {
+  background: #40758B;
+  border-width: 2px 0px 2px 2px;
+  border-color: #F2F2F2;
+}
+
+.lumion::before {
+  content: '2015-';
+  display: inline;
+  position: absolute;
+  font-size: 1.3rem;
+  top: 10px;
+  left: -60px;
+  color: white;
+  font-family: 'open sans';
+}
+
+.cinema4d {
+  position: relative;
+}
+
+.photoshop {
+  position: relative;
+}
+
+.after-effects {
+  position: relative;
+}
+
+.fl-studio {
+  position: relative;
+}
+
+.lumion {
+  position: relative;
+}
+
+/*Fim~ Estilo das Bordas*/
+
+.dec-1 {
+  display: block;
+  grid-column: 1 / 3;
+  width: 400px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  place-self: start end;
+  color: white;
+}
+
+.dec-1 strong {
+  font-weight: normal;
+  color: #A6E5E2;
+}
+
+.dec-1 em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.conteiner-c2 {
+  grid-column: 3 / 5;
+  grid-row: 1 / 4;
+}
+
+.experiência {
+  place-self: center;
+  grid-column: 1 / 3;
+}
+
+.h3-baixo {
+  grid-column: 1 / 3;
+  grid-row: 3;
+  font-size: 4rem;
+  line-height: 4.2rem;
+  place-self: end center;
+  text-align: left;
+  color: #A6E5E2;
+}
+
+.h3-baixo strong {
+  font-weight: 500;
+  color: #A6E5E2;
+}
+
+
+@media (max-width: 1580px) {
+  .itens-exp .sumir-c2 {
+    display: none;
+  }
+
+  .itens-exp {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1 / -1;
+  }
+
+  .exp h4, h4 span {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1220px) {
+  .conteudo2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .conteiner-c2 {
+    padding: 40px 0pc 20px 0px;
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+
+  .conteiner-c2 .h3-baixo {
+    grid-row: 4;
+  }
+
+  .experiência {
+    color: #F2F2F2;
+    width: auto;
+    font-size: 4.5rem;
+  }
+
+  .experiência br {
+    display: none;
+  }
+
+  .exp .alinhamento h4, h4 span {
+    font-size: 2rem;
+    width: auto;
+    line-height: 1;
+  }
+
+  .exp {
+    gap: 30px;
+    border-radius: 0px;
+    border-left: 0px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .dec-1 {
+    place-self: start;
+    text-align: start;
+    padding-left: 15px;
+  }
+
+  .h3-baixo {
+    padding-top: 10px;
+    grid-column: 1;
+    grid-row: 4;
+    font-size: 4rem;
+    line-height: 4.2rem;
+    place-self: end center;
+    text-align: left;
+    color: #A6E5E2;
+  }
+
+  .dec-1 {
+    padding-bottom: 20px;
+  }
+
+  .alinhamento-p {
+    padding-right: 5px;
+  }
+
+  .cinema4d-1220::after {
+    content: '';
+    position: absolute;
+    background-image: url(/img/2-conteudo-c4d.png);
+    background-size: cover;
+    display: block;
+    width: 100px;
+    height: 100px;
+    right: 175px;
+    bottom: -34px;
+  }
+
+  .photoshop-1220::after {
+    content: '';
+    position: absolute;
+    background-image: url(/img/2-conteudo-ps.png);
+    background-size: cover;
+    display: block;
+    width: 100px;
+    height: 100px;
+    right: 175px;
+    bottom: -17px;
+  }
+
+  .after-1220::after {
+    content: '';
+    position: absolute;
+    background-image: url(/img/2-conteudo-ae.png);
+    background-size: cover;
+    display: block;
+    width: 100px;
+    height: 100px;
+    right: 210px;
+    bottom: -17px;
+  }
+
+  .flstudio-1220::after {
+    content: '';
+    position: absolute;
+    background-image: url(/img/2-conteudo-flstudio.png);
+    background-size: cover;
+    display: block;
+    width: 100px;
+    height: 100px;
+    right: 150px;
+    bottom: -34px;
+  }
+
+  .lumion-1220::after {
+    content: '';
+    position: absolute;
+    background-image: url(/img/2-conteudo-lumion.png);
+    background-size: cover;
+    display: block;
+    width: 100px;
+    height: 100px;
+    right: 130px;
+    bottom: -34px;
+  }
+
+}
+
+@media (max-width: 660px) {
+  .exp {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .exp .alinhamento {
+    place-self: start center;
+  } 
+
+  .exp .alinhamento-p {
+    place-self: center center;
+    text-align: center;
+  }
+  
+  .exp .alinhamento-p p {
+    padding: 10px 0px;
+    margin: 0px;
+  }
+
+  .exp .alinhamento h4 {
+    padding: 15px 0px 5px 0px;
+  }
+
+  .dec-h4-c2 {
+    position: relative;
+  }
+
+  .dec-h4-letra-quebrada {
+    position: relative;
+  }
+
+  /* Pseudo-Elements */
+  
+  .dec-h4-c2::before {
+    content: '';
+    display: inline;
+    position: absolute;
+    border-radius: 4px;
+    width: 1rem;
+    height: 3px;
+    background-color: white;
+    top: 47px;
+    left: 3px;
+  }
+  
+  .dec-h4-letra-quebrada::before {
+    content: '';
+    display: inline;
+    position: absolute;
+    border-radius: 4px;
+    width: 1rem;
+    height: 3px;
+    background-color: white;
+    top: 79px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 570px) {
+
+  .dec-1 {
+    display: none;
+  }
+
+  .h3-baixo {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 460px) {
+  .experiência {
+    font-size: 3.5rem;
+  }
+
+  .dec-h4-c2::before {
+    content: '';
+    display: inline;
+    position: absolute;
+    border-radius: 4px;
+    width: 1rem;
+    height: 3px;
+    background-color: white;
+    top: 40px;
+    left: 3px;
+  }
+
+  .dec-h4-letra-quebrada::before {
+    content: '';
+    display: inline;
+    position: absolute;
+    border-radius: 4px;
+    width: 1rem;
+    height: 3px;
+    background-color: white;
+    top: 67px;
+    left: 0px;
+  }
+
+  .exp {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .exp .alinhamento-p p {
+    font-size: 1.2rem;
+    padding: 10px 0px;
+    margin: 0px;
+  }
+
+  .exp .alinhamento h4 span {
+    padding: 5px 0px 5px 0px;
+    font-size: 1.5rem;
+  }
+
+  .exp .alinhamento h4 {
+    padding: 15px 0px 5px 0px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .experiência {
+    font-size: 2.5rem;
+  }
+
+  .dec-h4-c2::before {
+    display: none;
+  }
+
+  .dec-h4-letra-quebrada::before {
+    display: none;
+  }
+
+  .exp {
+    gap: 0px;
+  }
+  
+  .exp .alinhamento-p p {
+    font-size: 0.9rem;
+    padding: 5px 0px;
+    margin: 0px;
+  }
+
+  .exp .alinhamento h4 span {
+    padding: 5px 0px 5px 0px;
+    font-size: 1.2rem;
+  }
+
+  .exp .alinhamento h4 {
+    padding: 5px 0px 5px 0px;
+    font-size: 1.2rem;
+  }
+
+  .h3-baixo {
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 360px) {
+  .experiência {
+    font-size: 1.9rem;
+  }
+  
+  .exp .alinhamento-p p {
+    font-size: 0.8rem;
+    padding: 5px 0px;
+    margin: 0px;
+  }
+
+  .exp .alinhamento h4 span {
+    padding: 5px 0px 5px 0px;
+    font-size: 0.9rem;
+  }
+
+  .exp .alinhamento h4 {
+    padding: 5px 0px 5px 0px;
+    font-size: 0.9rem;
+  }
+
+  .h3-baixo {
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
+
+/*deixados de lado*/
+
+@media (max-width: 790px) {
+
+
+  .after-1220::after {
+    display: none;
+  }
+
+}
+
+@media (max-width: 750px) {
+  .cinema4d-1220::after {
+    display: none;
+  }
+
+  .photoshop-1220::after {
+    display: none;
+  }
+}
+
+@media (max-width: 730px) {
+  .flstudio-1220::after {
+    display: none;
+  }
+
+  .lumion-1220::after {
+    display: none;
+  }
+}

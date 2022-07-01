@@ -1,0 +1,16 @@
+.conteudo-3 h2, h3, h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.section-c3 {
+  background-color: #CAFFFC;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.conteudo-3 {
+  width: 1900px;
+  margin: 0 auto;
+}
