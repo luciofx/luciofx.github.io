@@ -1,5 +1,5 @@
 main h1 span {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 64px;
@@ -24,7 +24,7 @@ main h2 span {
 }
 
 main h2 {
-  font-family: 'Lora';
+  font-family: "Lora";
   font-style: normal;
   font-weight: 400;
   font-size: 4rem;
@@ -37,7 +37,7 @@ main strong {
 }
 
 main p {
-  font-family: 'IBM Plex Sans';
+  font-family: "IBM Plex Sans";
   font-style: light;
   font-weight: 400;
   font-size: 25px;
@@ -222,7 +222,7 @@ main p {
   .conteiner1::after {
     content: "";
     position: absolute;
-    background-image: url('../img/1-conteudo-2_3.jpg');
+    background-image: url("../img/1-conteudo-2_3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -234,7 +234,7 @@ main p {
   .conteiner1::before {
     content: "";
     position: absolute;
-    background-image: url('../img/1-conteudo-3_3.jpg');
+    background-image: url("../img/1-conteudo-3_3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -311,7 +311,7 @@ main p {
   .conteiner1::after {
     content: "";
     position: absolute;
-    background-image: url('../img/1-conteudo-2_3.jpg');
+    background-image: url("../img/1-conteudo-2_3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -324,7 +324,7 @@ main p {
   .conteiner1::before {
     content: "";
     position: absolute;
-    background-image: url('../img/1-conteudo-3_3.jpg');
+    background-image: url("../img/1-conteudo-3_3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -407,7 +407,7 @@ main p {
   .conteiner1::before {
     content: "";
     position: absolute;
-    background-image: url('../img/1-conteudo-3_3.jpg');
+    background-image: url("../img/1-conteudo-3_3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

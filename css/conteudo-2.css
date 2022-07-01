@@ -104,14 +104,14 @@
 }
 
 .cinema4d::before {
-  content: '2013-';
+  content: "2013-";
   display: inline;
   position: absolute;
   font-size: 1.3rem;
   top: 10px;
   left: -60px;
   color: white;
-  font-family: 'open sans';
+  font-family: "open sans";
 }
 
 .photoshop {
@@ -121,14 +121,14 @@
 }
 
 .photoshop::before {
-  content: '2014-';
+  content: "2014-";
   display: inline;
   position: absolute;
   font-size: 1.3rem;
   top: 10px;
   left: -60px;
   color: white;
-  font-family: 'open sans';
+  font-family: "open sans";
 }
 
 
@@ -139,14 +139,14 @@
 }
 
 .after-effects::before {
-  content: '2013-';
+  content: "2013-";
   display: inline;
   position: absolute;
   font-size: 1.3rem;
   top: 10px;
   left: -60px;
   color: white;
-  font-family: 'open sans';
+  font-family: "open sans";
 }
 
 
@@ -157,14 +157,14 @@
 }
 
 .fl-studio::before {
-  content: '2016-';
+  content: "2016-";
   display: inline;
   position: absolute;
   font-size: 1.3rem;
   top: 10px;
   left: -60px;
   color: white;
-  font-family: 'open sans';
+  font-family: "open sans";
 }
 
 
@@ -175,14 +175,14 @@
 }
 
 .lumion::before {
-  content: '2015-';
+  content: "2015-";
   display: inline;
   position: absolute;
   font-size: 1.3rem;
   top: 10px;
   left: -60px;
   color: white;
-  font-family: 'open sans';
+  font-family: "open sans";
 }
 
 .cinema4d {
@@ -334,9 +334,9 @@
   }
 
   .cinema4d-1220::after {
-    content: '';
+    content: "";
     position: absolute;
-    background-image: url('../img/2-conteudo-c4d.png');
+    background-image: url("../img/2-conteudo-c4d.png");
     background-size: cover;
     display: block;
     width: 100px;
@@ -346,9 +346,9 @@
   }
 
   .photoshop-1220::after {
-    content: '';
+    content: "";
     position: absolute;
-    background-image: url('../img/2-conteudo-ps.png');
+    background-image: url("../img/2-conteudo-ps.png");
     background-size: cover;
     display: block;
     width: 100px;
@@ -358,9 +358,9 @@
   }
 
   .after-1220::after {
-    content: '';
+    content: "";
     position: absolute;
-    background-image: url('../img/2-conteudo-ae.png');
+    background-image: url("../img/2-conteudo-ae.png");
     background-size: cover;
     display: block;
     width: 100px;
@@ -370,9 +370,9 @@
   }
 
   .flstudio-1220::after {
-    content: '';
+    content: "";
     position: absolute;
-    background-image: url('../img/2-conteudo-flstudio.png');
+    background-image: url("../img/2-conteudo-flstudio.png");
     background-size: cover;
     display: block;
     width: 100px;
@@ -382,9 +382,9 @@
   }
 
   .lumion-1220::after {
-    content: '';
+    content: "";
     position: absolute;
-    background-image: url('../img/2-conteudo-lumion.png');
+    background-image: url("../img/2-conteudo-lumion.png");
     background-size: cover;
     display: block;
     width: 100px;
@@ -430,7 +430,7 @@
   /* Pseudo-Elements */
   
   .dec-h4-c2::before {
-    content: '';
+    content: "";
     display: inline;
     position: absolute;
     border-radius: 4px;
@@ -442,7 +442,7 @@
   }
   
   .dec-h4-letra-quebrada::before {
-    content: '';
+    content: "";
     display: inline;
     position: absolute;
     border-radius: 4px;
@@ -472,7 +472,7 @@
   }
 
   .dec-h4-c2::before {
-    content: '';
+    content: "";
     display: inline;
     position: absolute;
     border-radius: 4px;
@@ -484,7 +484,7 @@
   }
 
   .dec-h4-letra-quebrada::before {
-    content: '';
+    content: "";
     display: inline;
     position: absolute;
     border-radius: 4px;
