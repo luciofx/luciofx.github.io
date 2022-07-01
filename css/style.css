@@ -1,9 +1,9 @@
-@import url('global.css');
-@import url('header.css');
-@import url('fontes.css');
-@import url('conteudo-1.css');
-@import url('conteudo-2.css');
-@import url('conteudo-3.css');
+@import url('/css/global.css');
+@import url('/css/header.css');
+@import url('/css/fontes.css');
+@import url('/css/conteudo-1.css');
+@import url('/css/conteudo-2.css');
+@import url('/css/conteudo-3.css');
 
 /*Estilos Gerais*/
 
