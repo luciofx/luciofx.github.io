@@ -1,0 +1,83 @@
+.section-c4 {
+  width: 100%;
+  height: 700px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+
+.h2-c4 h2 {
+  padding: 0px;
+  margin: 0 auto;
+  font-family: roboto;
+}
+
+.h2-c4 h2::first-letter {
+  font-family: 'Lora';
+}
+
+.h2-c4 {
+  padding: 10px 0px 40px 0px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.conteiner-c4 {
+  display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
+  place-content: center;
+}
+
+.grid-c4 {
+  display: grid;
+  gap: 40px 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.itens-c4 {
+  padding: 70px 80px;
+  border: 3px solid #1a7c78;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  background-color: #95D2CF;
+}
+
+.p-c4::before {
+  content: 'EM BREVE';
+  position: absolute;
+  display: flex;
+  place-content: center;
+  width: 320px;
+  height: 50px;
+  top: -2px;
+  right: -83px;
+  background-color: white;
+  text-transform: uppercase;
+  font-family: "open sans";
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  transition: 0.5s;
+  border: 3px solid #cafffc;
+}
+
+.p-c4 {
+  position: relative;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "open sans";
+  font-weight: 500;
+}
+
+.grid-c4 .p-c4:hover::before {
+  background-color: #1a7c78;
+  color: white;
+  letter-spacing: 2px;
+  box-shadow: 0px 2px 10px 2px black;
+  width: 620px;
+  right: -237px;
+  height: 320px;
+  top: -137px;
+}

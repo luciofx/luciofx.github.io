@@ -1,0 +1,84 @@
+.footer-principal {
+  max-width: 1920px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-content: center;
+  margin-top: 50px;
+}
+
+.conteudo-f-text {
+  font-family: "Montserrat";
+}
+
+.conteiner-f li {
+  list-style: none;
+  position: relative;
+}
+
+.f-list::before {
+  content: "";
+  display: block;
+  background-color: black;
+  position: absolute;
+  bottom: -5px;
+  transition: 0.5s;
+  width: 0px;
+}
+
+.f-list:hover::before {
+  width: 48px;
+  height: 3px;
+}
+
+.conteiner-f {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Open Sans";
+  gap: 30px;
+  grid-column: 4 / 5;
+  grid-row: 1;
+  padding-inline-start: 0px;
+  width: 330px;
+  height: 200px;
+  place-self: start;
+  margin: 0px;
+}
+
+.conteiner-f a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.conteiner-f img {
+  max-width: 100%;
+  width: 48px;
+  height: 48px;
+}
+
+.f-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.conteudo-f-text {
+  grid-column: 2 / 4;
+  grid-row: 1 / -1;
+  place-self: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.pf-1 {
+  padding: 40px 0px 150px 0px;
+  place-self: start;
+  font-size: 1.5rem;
+  width: 30ch;
+}
+
+.f-2p-j {
+  font-size: 1.2rem;
+}

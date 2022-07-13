@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /*transition: 0.5s;*/
 }
 
 body {
@@ -7,8 +8,12 @@ body {
   background-color: #f2f2f2;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .subtitulo {
-    font-size: 10rem;
-    line-height: 1;
-    word-break: break-all;
+  font-size: 10rem;
+  line-height: 1;
+  word-break: break-all;
 }
