@@ -1,6 +1,5 @@
 .section-c4 {
   width: 100%;
-  height: 700px;
   background-color: #f2f2f2;
   margin: 0 auto;
 }
@@ -51,7 +50,7 @@
   place-content: center;
   width: 320px;
   height: 50px;
-  top: -2px;
+  top: -7px;
   right: -83px;
   background-color: white;
   text-transform: uppercase;
@@ -79,5 +78,37 @@
   width: 620px;
   right: -237px;
   height: 320px;
-  top: -137px;
+  top: -142px;
+}
+
+@media (max-width: 1220px) {
+  .h2-c4 h2 {
+    font-size: 5rem;
+  }
+
+  .section-c4 {}
+}
+
+@media (max-width: 1040px) {
+  .section-c4 {
+    width: 100%;
+    height: 600px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+  }
+
+  .itens-c4 {
+    padding: 70px 30px;
+    border: 3px solid #1a7c78;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    background-color: #95D2CF;
+  }
+
+  .grid-c4 {
+    display: grid;
+    gap: 20px 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

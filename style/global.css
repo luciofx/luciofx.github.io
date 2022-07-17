@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
   /*transition: 0.5s;*/
 }
 
@@ -8,8 +10,18 @@ body {
   background-color: #f2f2f2;
 }
 
-::-webkit-scrollbar {
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*::-webkit-scrollbar {
   display: none;
+}*/
+
+script {
+  overflow: hidden;
 }
 
 .subtitulo {

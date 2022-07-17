@@ -272,6 +272,26 @@ h4 {
 }
 
 @media (max-width: 1220px) {
+  .cinema4d::before {
+    display: none;
+  }
+
+  .photoshop::before {
+    display: none;
+  }
+
+  .after-effects::before {
+    display: none;
+  }
+
+  .fl-studio::before {
+    display: none;
+  }
+
+  .lumion::before {
+    display: none;
+  }
+
   .conteudo2 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
@@ -340,7 +360,7 @@ h4 {
   .cinema4d-1220::after {
     content: "";
     position: absolute;
-    background-image: url("img/2-conteudo-c4d.png");
+    background-image: url("../img/2-conteudo-c4d.png");
     background-size: cover;
     display: block;
     width: 100px;
@@ -352,7 +372,7 @@ h4 {
   .photoshop-1220::after {
     content: "";
     position: absolute;
-    background-image: url("img/2-conteudo-ps.png");
+    background-image: url("../img/2-conteudo-ps.png");
     background-size: cover;
     display: block;
     width: 100px;
@@ -364,7 +384,7 @@ h4 {
   .after-1220::after {
     content: "";
     position: absolute;
-    background-image: url("img/2-conteudo-ae.png");
+    background-image: url("../img/2-conteudo-ae.png");
     background-size: cover;
     display: block;
     width: 100px;
@@ -376,7 +396,7 @@ h4 {
   .flstudio-1220::after {
     content: "";
     position: absolute;
-    background-image: url("img/2-conteudo-flstudio.png");
+    background-image: url("../img/2-conteudo-flstudio.png");
     background-size: cover;
     display: block;
     width: 100px;
@@ -388,7 +408,7 @@ h4 {
   .lumion-1220::after {
     content: "";
     position: absolute;
-    background-image: url("img/2-conteudo-lumion.png");
+    background-image: url("../img/2-conteudo-lumion.png");
     background-size: cover;
     display: block;
     width: 100px;

@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   place-content: center;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .conteudo-f-text {
@@ -37,12 +37,12 @@
   grid-template-columns: 1fr;
   font-family: "Open Sans";
   gap: 30px;
-  grid-column: 4 / 5;
+  grid-column: 4 / 6;
   grid-row: 1;
   padding-inline-start: 0px;
   width: 330px;
   height: 200px;
-  place-self: start;
+  place-self: start center;
   margin: 0px;
 }
 
@@ -66,19 +66,101 @@
 }
 
 .conteudo-f-text {
-  grid-column: 2 / 4;
+  grid-column: 1 / 4;
   grid-row: 1 / -1;
   place-self: center;
   padding: 20px 0px 20px 0px;
 }
 
 .pf-1 {
-  padding: 40px 0px 150px 0px;
+  padding: 40px 0px 180px 0px;
   place-self: start;
   font-size: 1.5rem;
   width: 30ch;
 }
 
 .f-2p-j {
+  grid-row: 3;
+  grid-column: 2 / 5;
+  text-align: center;
   font-size: 1.2rem;
+  font-family: "Open Sans";
+  margin: 0 auto;
+}
+
+@media (max-width: 1040px) {
+  .pf-1 {
+    padding: 40px 0px 140px 0px;
+  }
+
+  .footer-principal {
+    max-width: 1920px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-content: center;
+  }
+}
+
+@media (max-width: 860px) {
+  .footer-principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    margin-top: 40px;
+  }
+
+  .conteudo-f-text {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .conteiner-f {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0px 0px 100px 0px;
+    place-self: end;
+    width: 275px;
+    gap: 10px;
+  }
+
+  .f-list {
+    grid-column: 1;
+  }
+
+  .f-list a {
+    font-size: 1.3rem;
+  }
+
+  .f-list img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .f-2p-j {
+    grid-column: 1 /-1;
+    grid-row: 3;
+  }
+
+  .pf-1 {
+    font-size: 1.3rem;
+    padding: 0px 0px 100px 0px;
+    width: 25ch;
+  }
+
+  .conteudo-f-text {
+    place-self: start end;
+
+    padding: 0px;
+  }
+
+  .f-list {
+    gap: 10px;
+  }
+
+  .conteiner-f img {
+    width: 36px;
+    height: 36px;
+  }
 }

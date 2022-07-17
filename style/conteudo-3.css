@@ -689,7 +689,8 @@ p {
 @media (max-width: 420px) {
   .conteiner-for {
     padding: 0xp;
-    margin: 0px 20px 0px 0px;
+    place-self: center center;
+    margin: 0 auto;
   }
 
   .faculdade::before {
@@ -817,7 +818,7 @@ p {
     place-self: center center;
     font-size: 0.8rem;
     width: 1;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
   }
 
   .escrita-itens-for {
