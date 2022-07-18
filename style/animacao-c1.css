@@ -1,0 +1,41 @@
+#css-png {
+  /* animation: mexendo 1s; */
+  animation-timing-function: ease;
+}
+
+#html-png {
+  animation: mexendo1 3.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#html-sh {
+  /* transition: 2s; */
+}
+
+#js-png {
+  /* animation: mexendo 1s; */
+  animation-timing-function: ease;
+}
+
+@keyframes mexendo1 {
+  0% {
+    transform: translatey(0px);
+  }
+
+  25% {
+    transform: translatey(-10px);
+  }
+
+  50% {
+    transform: translatey(20px);
+  }
+
+  75% {
+    transform: translatey(-15px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}

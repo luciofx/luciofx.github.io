@@ -2,7 +2,7 @@
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.Lora {
+.Lora::first-letter {
   font-family: 'Lora', serif;
 }
 

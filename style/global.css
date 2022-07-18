@@ -16,9 +16,9 @@ img {
   display: block;
 }
 
-/*::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-}*/
+}
 
 script {
   overflow: hidden;
