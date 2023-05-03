@@ -28,6 +28,7 @@
 }
 
 .f-list:hover::before {
+  content: "";
   width: 48px;
   height: 3px;
 }
@@ -43,7 +44,6 @@
   height: 200px;
   place-self: start center;
   margin: 0px;
-  overflow-x: hidden;
 }
 
 .conteiner-f a {
@@ -122,7 +122,7 @@
     margin: 0px 0px 100px 0px;
     place-self: center;
     width: 275px;
-    gap: 10px;
+    height: auto;
   }
 
   .f-list {
@@ -151,7 +151,6 @@
 
   .conteudo-f-text {
     place-self: start end;
-
     padding: 0px;
   }
 
@@ -162,6 +161,22 @@
   .conteiner-f img {
     width: 36px;
     height: 36px;
+  }
+
+  .f-list::before {
+    content: "";
+    display: block;
+    background-color: black;
+    position: absolute;
+    bottom: 5px;
+    transition: 0.5s;
+    width: 0px;
+  }
+  
+  .f-list:hover::before {
+    content: "";
+    width: 34px;
+    height: 3px;
   }
 }
 
@@ -178,6 +193,7 @@
     margin-left: 20px;
     padding: 0px;
     grid-row: 2;
+    place-self: center;
   }
 
   .conteiner-f {
